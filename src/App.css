@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+/*===============*/
+.header {
+  background: #63D471;
+  height: 85px;
+  justify-content: space-between;
+  z-index: 12;
+
+}
+.header-section nav,.header-section {
+  display: flex;
+}
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: #37517e;
+}
+.regForm .label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+}
+
+.regForm .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+
+}
+.regForm .btn{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.regForm .messages{
+  display: flex;
+  justify-content: center;
+}
+
+.regForm .error{
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.regForm .success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
